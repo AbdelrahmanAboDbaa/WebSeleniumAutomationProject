@@ -8,7 +8,6 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import static java.lang.Thread.sleep;
 
 public class HomePageTest {
     WebDriver driver;
