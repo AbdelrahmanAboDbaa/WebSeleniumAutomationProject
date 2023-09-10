@@ -12,6 +12,7 @@ import static java.lang.Thread.sleep;
 
 public class HomePageTest {
     WebDriver driver;
+    WebElement bookFirstSession;
 
     JavascriptExecutor jse;
     @BeforeClass
@@ -28,13 +29,13 @@ public class HomePageTest {
 
     @Test(priority = 1)
     public void bookFirstSessionButtonIsDisplayed(){
-        WebElement bookFirstSession = driver.findElement(By.xpath("//*[@id=\"heroText\"]/div/div[3]/a"));
+         bookFirstSession = driver.findElement(By.xpath("//*[@id=\"heroText\"]/div/div[3]/a"));
+
             Assert.assertTrue(bookFirstSession.isDisplayed());
     }
     @Test(priority = 2)
     public void contactButtonTextIsCorrect(){
-        WebElement bookFirstSession = driver.findElement(By.xpath("//*[@id=\"heroText\"]/div/div[3]/a"));
-
+         bookFirstSession = driver.findElement(By.xpath("//*[@id=\"heroText\"]/div/div[3]/a"));
         Assert.assertEquals(bookFirstSession.getText(),"احجز جلستك الأولى" );
     }
 
