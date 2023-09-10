@@ -53,5 +53,16 @@ public class HomePageTest {
         WebElement sliderPreviousButton = driver.findElement(By.className("swiper-button-prev"));
         Assert.assertTrue(sliderPreviousButton.isDisplayed());
     }
+    WebElement productsTitle;
+    @Test(priority = 7)
+    public void productsTitleFooterIsDisplayed()  {
+         productsTitle=driver.findElement(By.xpath("//*[@id=\"nav_menu-3\"]/h2"));
+        Assert.assertTrue(productsTitle.isDisplayed());
+    }
+
+    @Test(priority = 8)
+    public void productsTitleFooterTextIsCorrect(){
+        Assert.assertEquals(productsTitle.getText(),"Product");
+    }
 
 }
