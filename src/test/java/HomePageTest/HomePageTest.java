@@ -1,3 +1,5 @@
+package HomePageTest;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -9,7 +11,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 
-public class HomePageTest {
+public class HomePageTest  {
     WebDriver driver;
     WebElement bookFirstSession;
 
@@ -22,8 +24,8 @@ public class HomePageTest {
         driver=  WebDriverManager.chromedriver().capabilities(options).create();
         jse = (JavascriptExecutor) driver;
         driver.get("https://famcare.app/");
-
     }
+
 
 
     @Test(priority = 1)
