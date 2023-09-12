@@ -69,7 +69,56 @@ public class SpecialistsAndGuides {
         WebElement speciality = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".swiper-slide-next > .text-center > .speciality > a")));
 
         Assert.assertTrue(speciality.isDisplayed());
-        Assert.assertEquals(speciality.getText(), "      أخصائي نفسي    " );
+        Assert.assertEquals(speciality.getText(), "أخصائي نفسي" );
         Assert.assertEquals(speciality.getAttribute("href"),"https://famcare.app/?author=270&specialist_id=1392" );
+    }
+    @Test(priority = 6)
+    public void ratingCard_1_Test(){
+        WebDriverWait wait = scrollDownSection();
+        WebElement rating = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".swiper-slide-next > .text-center > .d-inline-block")));
+        Assert.assertTrue(rating.isDisplayed());
+        Assert.assertEquals(rating.getText(), "5/5" );
+    }
+    @Test(priority = 7)
+    public void bioCard_1_Test(){
+        WebDriverWait wait = scrollDownSection();
+        WebElement bio = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".swiper-slide-next > .text-center > .bio")));
+        Assert.assertTrue(bio.isDisplayed());
+        Assert.assertEquals(bio.getText(),  "دكتوراه الارشاد النفسي والتربوي خبرة اكثر من 35 عام في الارشاد النفسي والاسري بوزارة الصحة والمراكز الخيريةوالخاصة معالجة عشرات الالاف من حالات القلق والاكتئاب والوسواس القهري والمخاوف المرضية كالخوف الاجتماعي والتحدث امام الاخرين وحل الكثير من المشاكل الزوجية بافضل الاستراتيجيات العلاجية الحديثة" );
+    }
+
+    @Test(priority = 8)
+    public void profileButtonCard_1_Test(){
+        WebDriverWait wait = scrollDownSection();
+        WebElement profileButton = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".swiper-slide-next > .text-center > .justify-content-between > .profile")));
+        Assert.assertTrue(profileButton.isDisplayed());
+        Assert.assertEquals(profileButton.getText(), "الملف الشخصي");
+        Assert.assertEquals(profileButton.getAttribute("href"),"https://famcare.app/?author=270&specialist_id=1392" );
+        profileButton.click();
+        Assert.assertEquals("https://famcare.app/?author=270&specialist_id=1392", driver.getCurrentUrl());
+        driver.navigate().back();
+    }
+    @Test(priority = 9)
+    public void bookingButtonCard_1_Test(){
+        WebDriverWait wait = scrollDownSection();
+        WebElement bookingButton = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".swiper-slide-next > .text-center > .justify-content-between > #bookNow")));
+        Assert.assertTrue(bookingButton.isDisplayed());
+        Assert.assertEquals(bookingButton.getText(), "حجز موعد");
+        Assert.assertEquals(bookingButton.getAttribute("href"),"https://famcare.app/subscriptions?link=" );
+        bookingButton.click();
+        Assert.assertEquals("https://famcare.app/subscriptions?link=", driver.getCurrentUrl());
+        driver.navigate().back();
+    }
+
+    @Test(priority = 10)
+    public void  contactNowButtonCardSectionTest(){
+        WebDriverWait wait = scrollDownSection();
+        WebElement contactNowButton = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".kc_wrapper > .kc-elm > .kc_button")));
+        Assert.assertTrue(contactNowButton.isDisplayed());
+        Assert.assertEquals(contactNowButton.getText(), "تواصل الآن");
+        Assert.assertEquals(contactNowButton.getAttribute("href"),"https://famcare.onelink.me/v4gj/y2wra5uz" );
+        contactNowButton.click();
+        Assert.assertEquals("https://famcare.app/specialists/?shortlink=y2wra5uz&c=communicate%20now&pid=website-specialists&deep_link_value=https%3A%2F%2Ffamcare.app%2Fspecialists&source_caller=ui", driver.getCurrentUrl());
+        driver.navigate().back();
     }
 }
