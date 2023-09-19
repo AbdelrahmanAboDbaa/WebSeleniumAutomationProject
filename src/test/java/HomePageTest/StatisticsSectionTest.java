@@ -1,40 +1,28 @@
 package HomePageTest;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+import WebsitePagesElements.HomePageElements;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class StatisticsSection {
-    WebDriver driver;
-    JavascriptExecutor jse;
-    @BeforeClass
-    public void setUp(){
-        //Initialize driver
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("start-maximized");
-        driver=  WebDriverManager.chromedriver().capabilities(options).create();
-        jse = (JavascriptExecutor) driver;
-        driver.get("https://famcare.app/");
-    }
+import static HomePageTest.SetUpDriver.*;
+
+
+public class StatisticsSectionTest {
+
     @Test(priority = 1)
-    public WebDriverWait scrollDownSection(){
-        WebElement section = driver.findElement(By.cssSelector(".kc-css-338666"));
-        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", section);
-        return new WebDriverWait(driver, Duration.ofMillis(5000));
+    public void scrollDownSection(){
+        jse.executeScript("arguments[0].scrollIntoView(true);", HomePageElements.getStatisticsSection() );
     }
     @Test(priority = 2)
     public void imageIconRatingTest(){
-        WebDriverWait wait = scrollDownSection();
+        wait = new WebDriverWait(driver, Duration.ofNanos(1));
         WebElement iconRating = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".kc-css-879570 > .lazyloaded")));
 
         Assert.assertTrue(iconRating.isDisplayed());
@@ -44,7 +32,7 @@ public class StatisticsSection {
 
     @Test(priority = 3)
     public void satisfactionRateTest(){
-        WebDriverWait wait = scrollDownSection();
+        wait = new WebDriverWait(driver, Duration.ofNanos(1));
         WebElement satisfactionRate = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".kc-css-862127 > p")));
 
         Assert.assertTrue(satisfactionRate.isDisplayed());
@@ -52,7 +40,7 @@ public class StatisticsSection {
     }
     @Test(priority = 4)
     public void paragraphRateTest(){
-        WebDriverWait wait = scrollDownSection();
+        wait = new WebDriverWait(driver, Duration.ofNanos(1));
         WebElement paragraphRate = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".kc-css-32894 > p")));
 
         Assert.assertTrue(paragraphRate.isDisplayed());
@@ -61,7 +49,7 @@ public class StatisticsSection {
 
     @Test(priority = 5)
     public void imageIconBeneficiariesTest(){
-        WebDriverWait wait = scrollDownSection();
+        wait = new WebDriverWait(driver, Duration.ofNanos(1));
         WebElement iconRating = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".kc-css-500681  > .lazyloaded")));
 
         Assert.assertTrue(iconRating.isDisplayed());
@@ -71,7 +59,7 @@ public class StatisticsSection {
 
     @Test(priority = 6)
     public void numberOfBeneficiariesTest(){
-        WebDriverWait wait = scrollDownSection();
+        wait = new WebDriverWait(driver, Duration.ofNanos(1));
         WebElement numberOfBeneficiaries = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".kc-css-328768  > p")));
 
         Assert.assertTrue(numberOfBeneficiaries.isDisplayed());
@@ -79,7 +67,7 @@ public class StatisticsSection {
     }
     @Test(priority = 7)
     public void paragraphBeneficiariesTest(){
-        WebDriverWait wait = scrollDownSection();
+        wait = new WebDriverWait(driver, Duration.ofNanos(1));
         WebElement paragraphBeneficiaries = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".kc-css-998675  > p")));
 
         Assert.assertTrue(paragraphBeneficiaries.isDisplayed());
@@ -88,7 +76,7 @@ public class StatisticsSection {
 
     @Test(priority = 8)
     public void imageIconSessionDurationTest(){
-        WebDriverWait wait = scrollDownSection();
+        wait = new WebDriverWait(driver, Duration.ofNanos(1));
         WebElement iconSessionDuration = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".kc-css-288563  > .lazyloaded")));
 
         Assert.assertTrue(iconSessionDuration.isDisplayed());
@@ -98,7 +86,7 @@ public class StatisticsSection {
 
     @Test(priority = 9)
     public void numberOfSessionDuration(){
-        WebDriverWait wait = scrollDownSection();
+        wait = new WebDriverWait(driver, Duration.ofNanos(1));
         WebElement numberOfSessionDuration = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".kc-css-290527   > p")));
 
         Assert.assertTrue(numberOfSessionDuration.isDisplayed());
@@ -106,10 +94,14 @@ public class StatisticsSection {
     }
     @Test(priority = 10)
     public void paragraphSessionDurationTest(){
-        WebDriverWait wait = scrollDownSection();
+        wait = new WebDriverWait(driver, Duration.ofNanos(1));
         WebElement paragraphSessionDuration = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".kc-css-230656  > p")));
 
         Assert.assertTrue(paragraphSessionDuration.isDisplayed());
         Assert.assertEquals(paragraphSessionDuration.getText(),"دقيقة من الاستشارات والإرشاد" );
+    }
+    @AfterTest
+    public void TearDown() {
+        TearDown.tearDown();
     }
 }

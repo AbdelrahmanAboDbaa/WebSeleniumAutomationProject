@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class ReviewSection {
+public class ReviewSectionTest {
     WebDriver driver;
     JavascriptExecutor jse;
     @BeforeClass
