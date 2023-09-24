@@ -1,0 +1,1881 @@
+[ {
+  "uid" : "4401edad055f1b89",
+  "name" : "verifyThatHeroSectionParagraphIsDisplayed",
+  "time" : {
+    "start" : 1695540421488,
+    "stop" : 1695540421514,
+    "duration" : 26
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fbd1b33f61f250e9",
+  "name" : "joinAsSpecialistButtonTextIsCorrect",
+  "time" : {
+    "start" : 1695540421092,
+    "stop" : 1695540421111,
+    "duration" : 19
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a1bbac9ca4a52f10",
+  "name" : "verifyFullNameFiledIsDisplayed",
+  "time" : {
+    "start" : 1695540436814,
+    "stop" : 1695540436838,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d74cb1a163327f0",
+  "name" : "verifySliderIndexOneBlogPostAuthorNameIsDisplayed",
+  "time" : {
+    "start" : 1695540491448,
+    "stop" : 1695540491471,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b534f94b4a7b3ea",
+  "name" : "specialistsMenuItemIsDisplayed",
+  "time" : {
+    "start" : 1695540388414,
+    "stop" : 1695540388440,
+    "duration" : 26
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2888934e94f21e0",
+  "name" : "aboutUsMenuItemIsDisplayed",
+  "time" : {
+    "start" : 1695540418755,
+    "stop" : 1695540418781,
+    "duration" : 26
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e07cfeeb5792e61",
+  "name" : "numberOfSessionDuration",
+  "time" : {
+    "start" : 1695540431288,
+    "stop" : 1695540431332,
+    "duration" : 44
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78d669e580df9d87",
+  "name" : "verifyBlogMenuItemIsActiveClassAfterClick",
+  "time" : {
+    "start" : 1695540393392,
+    "stop" : 1695540393426,
+    "duration" : 34
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "638cdbb5608d41b7",
+  "name" : "ClickingJoinAsSpecialistButtonOpensEnterInformationForm",
+  "time" : {
+    "start" : 1695540421114,
+    "stop" : 1695540421226,
+    "duration" : 112
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "11d3d16502da690d",
+  "name" : "imageIconBeneficiariesTest",
+  "time" : {
+    "start" : 1695540431088,
+    "stop" : 1695540431143,
+    "duration" : 55
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3021a52a98c8ec97",
+  "name" : "verifyCard_4_HeadTextIsCorrect",
+  "time" : {
+    "start" : 1695540430417,
+    "stop" : 1695540430437,
+    "duration" : 20
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "286e6f0fc3cf4094",
+  "name" : "ClickingSliderIndexOneBlogPostAuthorNameOpenHisPage",
+  "time" : {
+    "start" : 1695540491532,
+    "stop" : 1695540493132,
+    "duration" : 1600
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d5e7099879622f6a",
+  "name" : "verifyClickingBookFirstSessionButtonOpensAppStore",
+  "time" : {
+    "start" : 1695540421603,
+    "stop" : 1695540428618,
+    "duration" : 7015
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aac3572f37702287",
+  "name" : "verifyRegistrationFormTitleIsDisplayed",
+  "time" : {
+    "start" : 1695540527847,
+    "stop" : 1695540527869,
+    "duration" : 22
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8597ffc1514338b8",
+  "name" : "verifyAcademyMenuItemAfterClickHideNavbar",
+  "time" : {
+    "start" : 1695540384813,
+    "stop" : 1695540384813,
+    "duration" : 0
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "5a8d7d92db6da207",
+  "name" : "verifyHeaderSearchButtonIsDisplayed",
+  "time" : {
+    "start" : 1695540555271,
+    "stop" : 1695540555294,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "92b56037929f66e6",
+  "name" : "verifyHeroSectionImageAltIsCorrect",
+  "time" : {
+    "start" : 1695540421410,
+    "stop" : 1695540421433,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d46b82439b89f93f",
+  "name" : "verifyAcademyPageHeroSectionTitleIsDisplayed",
+  "time" : {
+    "start" : 1695540523175,
+    "stop" : 1695540523367,
+    "duration" : 192
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "287426d83aa2c61f",
+  "name" : "verifySearchNotExistSpecialistNameDoesNotDisplayResult",
+  "time" : {
+    "start" : 1695540462669,
+    "stop" : 1695540469375,
+    "duration" : 6706
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20176a88f507ddc8",
+  "name" : "blogMenuItemHrefIsCorrect",
+  "time" : {
+    "start" : 1695540392078,
+    "stop" : 1695540392101,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "203927fc20327c7",
+  "name" : "contactNowButtonIsDisplayed",
+  "time" : {
+    "start" : 1695540430633,
+    "stop" : 1695540430664,
+    "duration" : 31
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "61818339969ca584",
+  "name" : "verifySliderSectionIsDisplayed",
+  "time" : {
+    "start" : 1695540485763,
+    "stop" : 1695540485883,
+    "duration" : 120
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78c750ffb3ba7a6f",
+  "name" : "verifySliderIndexOneBlogPostAuthorSpecializationTextIsCorrect",
+  "time" : {
+    "start" : 1695540493160,
+    "stop" : 1695540493200,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4916c14c4e744056",
+  "name" : "verifyThatHeroSectionImageIsDisplayed",
+  "time" : {
+    "start" : 1695540421331,
+    "stop" : 1695540421357,
+    "duration" : 26
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d9bf9bd555c81d3",
+  "name" : "verifySearchNotExistSpecialistNameDoesNotDisplayResult",
+  "time" : {
+    "start" : 1695540469378,
+    "stop" : 1695540475411,
+    "duration" : 6033
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e3de10a6ad7ea166",
+  "name" : "verifyOrganizationsMenuItemIsActiveClassAfterClick",
+  "time" : {
+    "start" : 1695540418040,
+    "stop" : 1695540418064,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db32e54fbcc1ff6f",
+  "name" : "specialistsMenuItemTextIsCorrect",
+  "time" : {
+    "start" : 1695540388442,
+    "stop" : 1695540388462,
+    "duration" : 20
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "82f699004708da09",
+  "name" : "imageIconRatingTest",
+  "time" : {
+    "start" : 1695540430744,
+    "stop" : 1695540430979,
+    "duration" : 235
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5fe4325093cef52",
+  "name" : "verifyCard_1_ImageAltIsCorrect",
+  "time" : {
+    "start" : 1695540429938,
+    "stop" : 1695540429969,
+    "duration" : 31
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b38eeaf3bb8eca8d",
+  "name" : "verifyFamcareMenuItemIsDisplayed",
+  "time" : {
+    "start" : 1695540386685,
+    "stop" : 1695540386748,
+    "duration" : 63
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9202fcda78f1edc8",
+  "name" : "verifyAboutUsMenuItemIsActiveClassAfterClick",
+  "time" : {
+    "start" : 1695540420950,
+    "stop" : 1695540420990,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "87fba5420a781674",
+  "name" : "verifyFamcareMenuItemHrefIsCorrect",
+  "time" : {
+    "start" : 1695540386829,
+    "stop" : 1695540386858,
+    "duration" : 29
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b693e9c36d8e9e25",
+  "name" : "ClickingDetailsButtonOpenArticlePage",
+  "time" : {
+    "start" : 1695540499758,
+    "stop" : 1695540501568,
+    "duration" : 1810
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d48113dcea30070d",
+  "name" : "verifyCard_1_ImageSrcIsCorrect",
+  "time" : {
+    "start" : 1695540429910,
+    "stop" : 1695540429935,
+    "duration" : 25
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a0361737e1b51bf",
+  "name" : "verifySliderIndexOneCategoryIsDisplayed",
+  "time" : {
+    "start" : 1695540485959,
+    "stop" : 1695540485982,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "65fdb016b9b5d0f8",
+  "name" : "verifyCard_3_ImageSrcIsCorrect",
+  "time" : {
+    "start" : 1695540430202,
+    "stop" : 1695540430227,
+    "duration" : 25
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b21a3c05bc439a7c",
+  "name" : "ClickingBlogMenuItemOpensBlogPage",
+  "time" : {
+    "start" : 1695540392103,
+    "stop" : 1695540393389,
+    "duration" : 1286
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3f949b0feeb7",
+  "name" : "verifyBackFormBlogPageToHomePage",
+  "time" : {
+    "start" : 1695540393434,
+    "stop" : 1695540394125,
+    "duration" : 691
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1296d6c13904e97a",
+  "name" : "verifyJoinAsSpecialistButtonIsDisplayed",
+  "time" : {
+    "start" : 1695540436576,
+    "stop" : 1695540436615,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3351711dd249fdf",
+  "name" : "clickingCoursesNavbarItemOpenCoursesPage",
+  "time" : {
+    "start" : 1695540546049,
+    "stop" : 1695540555227,
+    "duration" : 9178
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "747eca73156c6874",
+  "name" : "verifyCoursesNavbarItemIsDisplayed",
+  "time" : {
+    "start" : 1695540546025,
+    "stop" : 1695540546047,
+    "duration" : 22
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "404bc7b245e3010",
+  "name" : "verifyCard_2_ImageSrcIsCorrect",
+  "time" : {
+    "start" : 1695540430064,
+    "stop" : 1695540430088,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae933368daccd89e",
+  "name" : "verifyRegistrationHeroSectionIsDisplayed",
+  "time" : {
+    "start" : 1695540527733,
+    "stop" : 1695540527778,
+    "duration" : 45
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e7c6a16a1b491e82",
+  "name" : "verifyBackFormAcademyPageToHomePage",
+  "time" : {
+    "start" : 1695540414798,
+    "stop" : 1695540415541,
+    "duration" : 743
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3dd6a679e91fc26c",
+  "name" : "blogMenuItemIsDisplayed",
+  "time" : {
+    "start" : 1695540392027,
+    "stop" : 1695540392054,
+    "duration" : 27
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3fcb93a9d2d646c1",
+  "name" : "verifyClickingJoinAsSpecialistButtonOpensTheForm",
+  "time" : {
+    "start" : 1695540436617,
+    "stop" : 1695540436756,
+    "duration" : 139
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bed8ed54e67e62a2",
+  "name" : "verifyRegistrationHeroSectionTitleIsDisplayed",
+  "time" : {
+    "start" : 1695540527780,
+    "stop" : 1695540527801,
+    "duration" : 21
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "967064e472854090",
+  "name" : "verifyRegistrationFormTitleTextIsCorrect",
+  "time" : {
+    "start" : 1695540527871,
+    "stop" : 1695540527889,
+    "duration" : 18
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "54042f5ce80c3cd7",
+  "name" : "clickingHeaderSearchButtonDisplaysSearchFiled",
+  "time" : {
+    "start" : 1695540555296,
+    "stop" : 1695540555898,
+    "duration" : 602
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5fb74ace8426c1a5",
+  "name" : "verifyAcademicDegreeFieldIsDisplayed",
+  "time" : {
+    "start" : 1695540436920,
+    "stop" : 1695540436946,
+    "duration" : 26
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "25962c701ebd4512",
+  "name" : "verifyThatHomeScreenIsOpenedSuccessfully",
+  "time" : {
+    "start" : 1695540384829,
+    "stop" : 1695540384870,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "502109895f0c49ff",
+  "name" : "verifyThatHeroSectionHeadTitleIsDisplayed",
+  "time" : {
+    "start" : 1695540421435,
+    "stop" : 1695540421463,
+    "duration" : 28
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a27fad72eb8d52c4",
+  "name" : "organizationsMenuItemHrefIsCorrect",
+  "time" : {
+    "start" : 1695540415628,
+    "stop" : 1695540415648,
+    "duration" : 20
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d3f985c44472a4f",
+  "name" : "verifyCard_4_ImageSrcIsCorrect",
+  "time" : {
+    "start" : 1695540430342,
+    "stop" : 1695540430363,
+    "duration" : 21
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1ef1c30b730462c",
+  "name" : "verifySliderIndexOneDateIsDisplayed",
+  "time" : {
+    "start" : 1695540485907,
+    "stop" : 1695540485932,
+    "duration" : 25
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f27f8a5c2675b16",
+  "name" : "verifyHeaderSearchResultTitleTextIsCorrect",
+  "time" : {
+    "start" : 1695540558294,
+    "stop" : 1695540558311,
+    "duration" : 17
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a6453bb84d8c8fc1",
+  "name" : "verifyAcademicSpecialityFieldIsDisplayed",
+  "time" : {
+    "start" : 1695540436967,
+    "stop" : 1695540436990,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ba6051eebd16e72",
+  "name" : "verifyLogoItemAltIsCorrect",
+  "time" : {
+    "start" : 1695540384965,
+    "stop" : 1695540384995,
+    "duration" : 30
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d98f601cecb4fda8",
+  "name" : "verifyParagraphHeroSectionTextIsCorrect",
+  "time" : {
+    "start" : 1695540454118,
+    "stop" : 1695540454138,
+    "duration" : 20
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c7fbac86e64c652",
+  "name" : "verifyHeroSectionHeadTitleTextIsCorrect",
+  "time" : {
+    "start" : 1695540421466,
+    "stop" : 1695540421484,
+    "duration" : 18
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "79a5e8cd3f214944",
+  "name" : "verifyAcademyPageHeroSectionTitleTextIsCorrect",
+  "time" : {
+    "start" : 1695540523370,
+    "stop" : 1695540523409,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "90f413e404f266a2",
+  "name" : "verifyHeadTitleApprovedOfficialAuthoritiesSectionIsDisplayed",
+  "time" : {
+    "start" : 1695540429800,
+    "stop" : 1695540429846,
+    "duration" : 46
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3df85393ba2b11a4",
+  "name" : "verifySendFormButtonTextIsCorrect",
+  "time" : {
+    "start" : 1695540437139,
+    "stop" : 1695540437253,
+    "duration" : 114
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e64dc9c6e067e067",
+  "name" : "ClickingSliderIndexOneBlogPostShareFacebookIconOpenShareFacebookPostPage",
+  "time" : {
+    "start" : 1695540493298,
+    "stop" : 1695540497708,
+    "duration" : 4410
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2252160ab3814fab",
+  "name" : "verifyBackFormAboutUsPageToHomePage",
+  "time" : {
+    "start" : 1695540420992,
+    "stop" : 1695540421060,
+    "duration" : 68
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "507308f0ff062009",
+  "name" : "verifyMobileNumberFiledIsDisplayed",
+  "time" : {
+    "start" : 1695540436840,
+    "stop" : 1695540436868,
+    "duration" : 28
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "85c57dcb11d57cc8",
+  "name" : "verifyLogoItemIsDisplayed",
+  "time" : {
+    "start" : 1695540384903,
+    "stop" : 1695540384932,
+    "duration" : 29
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "abf713a5843fd3df",
+  "name" : "paragraphBeneficiariesTest",
+  "time" : {
+    "start" : 1695540431190,
+    "stop" : 1695540431231,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "28aa2baddae3f6fe",
+  "name" : "verifySliderIndexOneBlogPostShareTextIsDisplayed",
+  "time" : {
+    "start" : 1695540493202,
+    "stop" : 1695540493232,
+    "duration" : 30
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c38855875b883e75",
+  "name" : "tearDown",
+  "time" : {
+    "start" : 1695540558472,
+    "stop" : 1695540558472,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2428452db02acbb0",
+  "name" : "testRegistrationAcademyForm",
+  "time" : {
+    "start" : 1695540501727,
+    "stop" : 1695540501727,
+    "duration" : 0
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "e445c2da66ebc3ef",
+  "name" : "verifySendFormButtonFormIsDisplayed",
+  "time" : {
+    "start" : 1695540437113,
+    "stop" : 1695540437137,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af93f2c30c053835",
+  "name" : "contactNowButtonHrefIsCorrect",
+  "time" : {
+    "start" : 1695540430688,
+    "stop" : 1695540430721,
+    "duration" : 33
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b45dbd1fb26c2262",
+  "name" : "NavigateToAcademyPage",
+  "time" : {
+    "start" : 1695540506581,
+    "stop" : 1695540523171,
+    "duration" : 16590
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d95538b9ec6ca60a",
+  "name" : "verifyHeaderSearchResultTitleIsDisplayed",
+  "time" : {
+    "start" : 1695540558268,
+    "stop" : 1695540558291,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc96fd6a17b68dc1",
+  "name" : "testJoinAsSpecialist",
+  "time" : {
+    "start" : 1695540437273,
+    "stop" : 1695540439968,
+    "duration" : 2695
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2de781502bde7350",
+  "name" : "verifyHeadTitleApprovedOfficialAuthoritiesSectionTextIsCorrect",
+  "time" : {
+    "start" : 1695540429848,
+    "stop" : 1695540429872,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "512f8ad7bdf8b54d",
+  "name" : "verifySliderIndexOneIsDisplayed",
+  "time" : {
+    "start" : 1695540485884,
+    "stop" : 1695540485905,
+    "duration" : 21
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7639a2bf09f7a525",
+  "name" : "verifyTitleHeroSectionCoursePageTextIsCorrect",
+  "time" : {
+    "start" : 1695540555253,
+    "stop" : 1695540555270,
+    "duration" : 17
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "babaa73e37d38b64",
+  "name" : "ClickingJoinAsSpecialistFormCloseHiddenEnterInformationForm",
+  "time" : {
+    "start" : 1695540442634,
+    "stop" : 1695540442734,
+    "duration" : 100
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a2bab45b800050f",
+  "name" : "satisfactionRateTest",
+  "time" : {
+    "start" : 1695540430981,
+    "stop" : 1695540431032,
+    "duration" : 51
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8bcee69cc1836bb2",
+  "name" : "verifySliderIndexOneBlogPostShareTwitterIconIsDisplayed",
+  "time" : {
+    "start" : 1695540497711,
+    "stop" : 1695540497765,
+    "duration" : 54
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "418304d9b2a33f7",
+  "name" : "verifySpecialistsMenuItemIsActiveClassAfterClick",
+  "time" : {
+    "start" : 1695540391037,
+    "stop" : 1695540391066,
+    "duration" : 29
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a2bbe9d305130bdc",
+  "name" : "verifyBookFirstSessionButtonHrefIsCorrect",
+  "time" : {
+    "start" : 1695540421580,
+    "stop" : 1695540421600,
+    "duration" : 20
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d85a2f32e292d828",
+  "name" : "ClickingJoinAsSpecialistFormCloseHiddenEnterInformationForm",
+  "time" : {
+    "start" : 1695540421228,
+    "stop" : 1695540421328,
+    "duration" : 100
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a8bb8661b016db40",
+  "name" : "verifyCard_3_HeadIsDisplayed",
+  "time" : {
+    "start" : 1695540430255,
+    "stop" : 1695540430285,
+    "duration" : 30
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb8c0f8bf3994d6b",
+  "name" : "verifyCard_2_ImageIsDisplayed",
+  "time" : {
+    "start" : 1695540430036,
+    "stop" : 1695540430061,
+    "duration" : 25
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dca87c7999a42e6c",
+  "name" : "verifyCard_4_HeadIsDisplayed",
+  "time" : {
+    "start" : 1695540430387,
+    "stop" : 1695540430415,
+    "duration" : 28
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "891b1dcf9cace1e6",
+  "name" : "verifyYearsOfExperienceFieldPlaceholderIsCorrect",
+  "time" : {
+    "start" : 1695540437045,
+    "stop" : 1695540437063,
+    "duration" : 18
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "943b24e68ef4e245",
+  "name" : "organizationsMenuItemIsDisplayed",
+  "time" : {
+    "start" : 1695540415544,
+    "stop" : 1695540415603,
+    "duration" : 59
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a12f4bf14bc858fb",
+  "name" : "imageIconSessionDurationTest",
+  "time" : {
+    "start" : 1695540431233,
+    "stop" : 1695540431287,
+    "duration" : 54
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8e8210cf63be4a1",
+  "name" : "verifyAcademicSpecialityFieldPlaceholderIsCorrect",
+  "time" : {
+    "start" : 1695540436992,
+    "stop" : 1695540437013,
+    "duration" : 21
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e0b8c8fef896db2c",
+  "name" : "academyMenuItemHrefIsCorrect",
+  "time" : {
+    "start" : 1695540394189,
+    "stop" : 1695540394219,
+    "duration" : 30
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b511725c94f6e49c",
+  "name" : "verifyHeadTitleSpecialistsAndGuidesSectionTextIsCorrect",
+  "time" : {
+    "start" : 1695540430585,
+    "stop" : 1695540430607,
+    "duration" : 22
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "61a854905c57af89",
+  "name" : "scrollDownSection",
+  "time" : {
+    "start" : 1695540430726,
+    "stop" : 1695540430740,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d59513c50bb240c1",
+  "name" : "verifyLoginFormIsDisplayed",
+  "time" : {
+    "start" : 1695540527891,
+    "stop" : 1695540527912,
+    "duration" : 21
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea44ddafc0cd619",
+  "name" : "organizationsMenuItemTextIsCorrect",
+  "time" : {
+    "start" : 1695540415606,
+    "stop" : 1695540415625,
+    "duration" : 19
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "200e6011799e44c2",
+  "name" : "verifySliderIndexOneBlogPostAuthorNameTextIsCorrect",
+  "time" : {
+    "start" : 1695540491474,
+    "stop" : 1695540491529,
+    "duration" : 55
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "73cf9d3e442a0d7b",
+  "name" : "verifyThatTopNavbarIsDisplayed",
+  "time" : {
+    "start" : 1695540384872,
+    "stop" : 1695540384900,
+    "duration" : 28
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab7bacb0e7aba2ae",
+  "name" : "specialistsMenuItemHrefIsCorrect",
+  "time" : {
+    "start" : 1695540388465,
+    "stop" : 1695540388487,
+    "duration" : 22
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b4406c6ffd71ae7",
+  "name" : "verifyCard_3_ImageIsDisplayed",
+  "time" : {
+    "start" : 1695540430171,
+    "stop" : 1695540430199,
+    "duration" : 28
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d83bc78839dedc0f",
+  "name" : "verifySliderIndexOneCategoryTextIsCorrect",
+  "time" : {
+    "start" : 1695540485984,
+    "stop" : 1695540486001,
+    "duration" : 17
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd4a520e69bd7209",
+  "name" : "verifySocialMediaAccountFieldIsDisplayed",
+  "time" : {
+    "start" : 1695540437065,
+    "stop" : 1695540437089,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a6e0f57dff0fc46",
+  "name" : "verifyHeadTitleHeroSectionIsDisplayed",
+  "time" : {
+    "start" : 1695540454032,
+    "stop" : 1695540454057,
+    "duration" : 25
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d01a8d49423a9417",
+  "name" : "verifyFamcareMenuItemIsActiveClass",
+  "time" : {
+    "start" : 1695540386754,
+    "stop" : 1695540386794,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3314e239e89a5029",
+  "name" : "verifySliderIndexOneTitleIsDisplayed",
+  "time" : {
+    "start" : 1695540486004,
+    "stop" : 1695540486029,
+    "duration" : 25
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d4e1ea52e4195a7",
+  "name" : "verifySliderIndexOnePostAuthorImageIsDisplayed",
+  "time" : {
+    "start" : 1695540489038,
+    "stop" : 1695540489068,
+    "duration" : 30
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8316386024327f8",
+  "name" : "contactNowButtonTextIsCorrect",
+  "time" : {
+    "start" : 1695540430667,
+    "stop" : 1695540430685,
+    "duration" : 18
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e9b4f4911e0c26c",
+  "name" : "verifyHeadTitleSpecialistsAndGuidesSectionIsDisplayed",
+  "time" : {
+    "start" : 1695540430465,
+    "stop" : 1695540430582,
+    "duration" : 117
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a17c2cd918e463bb",
+  "name" : "verifyTitleJoinAsSpecialistFormTextIsCorrect",
+  "time" : {
+    "start" : 1695540436787,
+    "stop" : 1695540436812,
+    "duration" : 25
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "82a4d6f04466541d",
+  "name" : "verifySearchNameFiledDisplayed",
+  "time" : {
+    "start" : 1695540454141,
+    "stop" : 1695540454166,
+    "duration" : 25
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "82d08d0ea7fc0047",
+  "name" : "verifyThatHeroSectionIsDisplayed",
+  "time" : {
+    "start" : 1695540421360,
+    "stop" : 1695540421384,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "105521a6b9f0fe5f",
+  "name" : "blogMenuItemTextIsCorrect",
+  "time" : {
+    "start" : 1695540392057,
+    "stop" : 1695540392075,
+    "duration" : 18
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9c5e1ce628b88d96",
+  "name" : "testSuccessLoginAcademyForm",
+  "time" : {
+    "start" : 1695540535540,
+    "stop" : 1695540546022,
+    "duration" : 10482
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b6f3e79a405c65b2",
+  "name" : "verifySliderIndexOneDateTextIsCorrect",
+  "time" : {
+    "start" : 1695540485934,
+    "stop" : 1695540485956,
+    "duration" : 22
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d816fbe434dcd08",
+  "name" : "verifyCard_3_ImageAltIsCorrect",
+  "time" : {
+    "start" : 1695540430230,
+    "stop" : 1695540430252,
+    "duration" : 22
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b795981a9f4fb57a",
+  "name" : "testFailLoginAcademyForm",
+  "time" : {
+    "start" : 1695540533933,
+    "stop" : 1695540535535,
+    "duration" : 1602
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "655d3b296db419c4",
+  "name" : "verifySearchExistingSpecialistNameDisplaysMatchResult",
+  "time" : {
+    "start" : 1695540454196,
+    "stop" : 1695540461226,
+    "duration" : 7030
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7cdc861a668cc95a",
+  "name" : "verifySearchNameFiledPlaceholderIsCorrect",
+  "time" : {
+    "start" : 1695540454168,
+    "stop" : 1695540454193,
+    "duration" : 25
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7af1f0e13a1d9ebf",
+  "name" : "verifyBackFormOrganizationsPageToHomePage",
+  "time" : {
+    "start" : 1695540418067,
+    "stop" : 1695540418753,
+    "duration" : 686
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b55eb0410d64d6e8",
+  "name" : "verifyTitleJoinAsSpecialistFormIsDisplayed",
+  "time" : {
+    "start" : 1695540436758,
+    "stop" : 1695540436785,
+    "duration" : 27
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b0bb31bec67591b",
+  "name" : "ClickingOrganizationsMenuItemOpensOrganizationsPage",
+  "time" : {
+    "start" : 1695540415650,
+    "stop" : 1695540418038,
+    "duration" : 2388
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ad9e13d35074af9",
+  "name" : "verifySliderIndexOneBlogDetailsButtonIsDisplayed",
+  "time" : {
+    "start" : 1695540499726,
+    "stop" : 1695540499756,
+    "duration" : 30
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fe690bde09fd63e7",
+  "name" : "aboutUsMenuItemHrefIsCorrect",
+  "time" : {
+    "start" : 1695540418804,
+    "stop" : 1695540418827,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4db8adc56e75de37",
+  "name" : "verifyThatBookFirstSessionButtonTextIsCorrect",
+  "time" : {
+    "start" : 1695540421561,
+    "stop" : 1695540421578,
+    "duration" : 17
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "369cc543e05b49dc",
+  "name" : "academyMenuItemIsDisplayed",
+  "time" : {
+    "start" : 1695540394130,
+    "stop" : 1695540394162,
+    "duration" : 32
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "26b462f4a1330c38",
+  "name" : "verifyRegistrationFormIsDisplayed",
+  "time" : {
+    "start" : 1695540527820,
+    "stop" : 1695540527843,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7405a333326693d4",
+  "name" : "testFailLoginAcademyForm",
+  "time" : {
+    "start" : 1695540527959,
+    "stop" : 1695540533931,
+    "duration" : 5972
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2da25e18e7edee9c",
+  "name" : "verifyMobileNumberFieldPlaceholderIsCorrect",
+  "time" : {
+    "start" : 1695540436896,
+    "stop" : 1695540436918,
+    "duration" : 22
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "548d4c5d3fc784c",
+  "name" : "verifyHeadTitleHeroSectionTextIsCorrect",
+  "time" : {
+    "start" : 1695540454058,
+    "stop" : 1695540454080,
+    "duration" : 22
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9bac392345210afa",
+  "name" : "verifyCard_1_ImageIsDisplayed",
+  "time" : {
+    "start" : 1695540429876,
+    "stop" : 1695540429905,
+    "duration" : 29
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc10b1ca92756614",
+  "name" : "verifyCard_4_ImageAltIsCorrect",
+  "time" : {
+    "start" : 1695540430365,
+    "stop" : 1695540430383,
+    "duration" : 18
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7222232e3a0fb4ce",
+  "name" : "verifyLogoItemSrcIsCorrect",
+  "time" : {
+    "start" : 1695540384934,
+    "stop" : 1695540384961,
+    "duration" : 27
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b6452d4bf0c98aa3",
+  "name" : "verifyCard_2_HeadTextIsCorrect",
+  "time" : {
+    "start" : 1695540430151,
+    "stop" : 1695540430168,
+    "duration" : 17
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2f8b506f9b666c26",
+  "name" : "NavigateToRegistrationPage",
+  "time" : {
+    "start" : 1695540523411,
+    "stop" : 1695540527728,
+    "duration" : 4317
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "75af1b81f63bfd93",
+  "name" : "aboutUsMenuItemTextIsCorrect",
+  "time" : {
+    "start" : 1695540418783,
+    "stop" : 1695540418801,
+    "duration" : 18
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6096674e9a726f4",
+  "name" : "paragraphSessionDurationTest",
+  "time" : {
+    "start" : 1695540431334,
+    "stop" : 1695540431376,
+    "duration" : 42
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2913dc576cba4c0f",
+  "name" : "numberOfBeneficiariesTest",
+  "time" : {
+    "start" : 1695540431146,
+    "stop" : 1695540431188,
+    "duration" : 42
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "598eb68bc905939",
+  "name" : "NavigateToBlogPage",
+  "time" : {
+    "start" : 1695540482970,
+    "stop" : 1695540485760,
+    "duration" : 2790
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1cf8738f8a531afe",
+  "name" : "verifyThatBookFirstSessionButtonIsDisplayed",
+  "time" : {
+    "start" : 1695540421536,
+    "stop" : 1695540421558,
+    "duration" : 22
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2241f88b9d06bcea",
+  "name" : "verifySocialMediaAccountFieldPlaceholderIsCorrect",
+  "time" : {
+    "start" : 1695540437091,
+    "stop" : 1695540437111,
+    "duration" : 20
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1685b8ea5b370d08",
+  "name" : "scrollDownSection",
+  "time" : {
+    "start" : 1695540447740,
+    "stop" : 1695540447788,
+    "duration" : 48
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a9d4f8e5323768b",
+  "name" : "verifySliderIndexOneTitleTextIsCorrect",
+  "time" : {
+    "start" : 1695540486031,
+    "stop" : 1695540486045,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e70725d5df6fe88f",
+  "name" : "verifyHeroSectionSpecialistsPageIsDisplayed",
+  "time" : {
+    "start" : 1695540454000,
+    "stop" : 1695540454029,
+    "duration" : 29
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4682f316fe07bd7f",
+  "name" : "verifyCard_1_HeadIsDisplayed",
+  "time" : {
+    "start" : 1695540429981,
+    "stop" : 1695540430012,
+    "duration" : 31
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b3f0ad85958876e8",
+  "name" : "scrollDownSection",
+  "time" : {
+    "start" : 1695540430441,
+    "stop" : 1695540430462,
+    "duration" : 21
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "158a80ae42401370",
+  "name" : "verifyCard_2_HeadIsDisplayed",
+  "time" : {
+    "start" : 1695540430119,
+    "stop" : 1695540430148,
+    "duration" : 29
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "244422f34da7e5fd",
+  "name" : "ClickingSliderIndexOnePostAuthorImageOpenHisPage",
+  "time" : {
+    "start" : 1695540489070,
+    "stop" : 1695540491445,
+    "duration" : 2375
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd999c6672c3bd6a",
+  "name" : "verifyAcademicDegreeFieldPlaceholderIsCorrect",
+  "time" : {
+    "start" : 1695540436948,
+    "stop" : 1695540436965,
+    "duration" : 17
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "366aa6748c0b4e81",
+  "name" : "verifyHeroSectionParagraphTextIsCorrect",
+  "time" : {
+    "start" : 1695540421516,
+    "stop" : 1695540421534,
+    "duration" : 18
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "27674a4baedbdd1f",
+  "name" : "verifyFamcareMenuItemTextIsCorrect",
+  "time" : {
+    "start" : 1695540386797,
+    "stop" : 1695540386824,
+    "duration" : 27
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "83499c765b51d219",
+  "name" : "ClickingSpecialistsMenuItemOpensSpecialistsPage",
+  "time" : {
+    "start" : 1695540388489,
+    "stop" : 1695540391035,
+    "duration" : 2546
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "74a372bc3a341418",
+  "name" : "verifyLoginFormTitleIsDisplayed",
+  "time" : {
+    "start" : 1695540527914,
+    "stop" : 1695540527936,
+    "duration" : 22
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "655069ddbfa862a4",
+  "name" : "verify Specialists And Guides Section Is Displayed",
+  "time" : {
+    "start" : 1695540430610,
+    "stop" : 1695540430630,
+    "duration" : 20
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "998b3159eab7aa6b",
+  "name" : "verifyBackFromSpecialistsPageToHomePage",
+  "time" : {
+    "start" : 1695540391069,
+    "stop" : 1695540392024,
+    "duration" : 955
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f15e3cf0a1f83d46",
+  "name" : "academyMenuItemTextIsCorrect",
+  "time" : {
+    "start" : 1695540394165,
+    "stop" : 1695540394185,
+    "duration" : 20
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c8dec3eff7594ab9",
+  "name" : "verifyClickingFamcareMenuItemOpensHomePage",
+  "time" : {
+    "start" : 1695540386861,
+    "stop" : 1695540388411,
+    "duration" : 1550
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1541700862024fb3",
+  "name" : "verifyFullNameFiledPlaceholderIsCorrect",
+  "time" : {
+    "start" : 1695540436870,
+    "stop" : 1695540436894,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef32dae2dadf7c81",
+  "name" : "ClickingAcademyMenuItemOpensAcademyPage",
+  "time" : {
+    "start" : 1695540394222,
+    "stop" : 1695540414794,
+    "duration" : 20572
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5810c0449a14e4cf",
+  "name" : "verifyTitleHeroSectionCoursePageIsDisplayed",
+  "time" : {
+    "start" : 1695540555230,
+    "stop" : 1695540555251,
+    "duration" : 21
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ad8523a3a514b1e",
+  "name" : "verifyRegistrationHeroSectionTitleTextIsCorrect",
+  "time" : {
+    "start" : 1695540527803,
+    "stop" : 1695540527819,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9c2e54dbd90c820b",
+  "name" : "ClickingAboutUsMenuItemOpensAboutUsPage",
+  "time" : {
+    "start" : 1695540418829,
+    "stop" : 1695540420946,
+    "duration" : 2117
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "88c56c191c2609f3",
+  "name" : "verifyCard_2_ImageAltIsCorrect",
+  "time" : {
+    "start" : 1695540430092,
+    "stop" : 1695540430116,
+    "duration" : 24
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ef00245e3cc9fb8",
+  "name" : "verifyContactNowButtonOpensSpecialistsPage",
+  "time" : {
+    "start" : 1695540453985,
+    "stop" : 1695540453996,
+    "duration" : 11
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "850c59c5783f7a44",
+  "name" : "paragraphRateTest",
+  "time" : {
+    "start" : 1695540431035,
+    "stop" : 1695540431086,
+    "duration" : 51
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d7d856517d232e40",
+  "name" : "verifySearchNotExistSpecialistNameDoesNotDisplayResult",
+  "time" : {
+    "start" : 1695540461233,
+    "stop" : 1695540462666,
+    "duration" : 1433
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "55810b0fd55b0196",
+  "name" : "ClickingSliderIndexOneTitleOpenArticlePage",
+  "time" : {
+    "start" : 1695540486047,
+    "stop" : 1695540489004,
+    "duration" : 2957
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4ba1fa2a09a62f3",
+  "name" : "enterValidFormatCourseNameDisplaysAtLeastOne",
+  "time" : {
+    "start" : 1695540555900,
+    "stop" : 1695540558265,
+    "duration" : 2365
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d745193f537ac7d",
+  "name" : "verifySliderIndexOneBlogPostShareFacebookIconIsDisplayed",
+  "time" : {
+    "start" : 1695540493272,
+    "stop" : 1695540493296,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97d456732f06d57c",
+  "name" : "testJoinAsSpecialist",
+  "time" : {
+    "start" : 1695540439973,
+    "stop" : 1695540442631,
+    "duration" : 2658
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "89d86c94691f2a22",
+  "name" : "verifyHeroSectionImageSrcIsCorrect",
+  "time" : {
+    "start" : 1695540421387,
+    "stop" : 1695540421407,
+    "duration" : 20
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b2783aa912e1581",
+  "name" : "verifyCard_4_ImageIsDisplayed",
+  "time" : {
+    "start" : 1695540430313,
+    "stop" : 1695540430339,
+    "duration" : 26
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a63b973a1727c58",
+  "name" : "verifyParagraphHeroSectionIsDisplayed",
+  "time" : {
+    "start" : 1695540454084,
+    "stop" : 1695540454108,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b528feb0d68b7f37",
+  "name" : "ClickingSliderIndexOneBlogPostShareTwitterIconOpenShareTwitterPostPage",
+  "time" : {
+    "start" : 1695540497768,
+    "stop" : 1695540499722,
+    "duration" : 1954
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "12c2b373dc1f7c99",
+  "name" : "verifySliderIndexOneBlogPostShareTextIsCorrect",
+  "time" : {
+    "start" : 1695540493234,
+    "stop" : 1695540493270,
+    "duration" : 36
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "235728e90cbcc196",
+  "name" : "verifyCard_3_HeadTextIsCorrect",
+  "time" : {
+    "start" : 1695540430288,
+    "stop" : 1695540430309,
+    "duration" : 21
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ea657a0e90ef7b8",
+  "name" : "verifyLoginFormTitleTextIsCorrect",
+  "time" : {
+    "start" : 1695540527939,
+    "stop" : 1695540527956,
+    "duration" : 17
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f1624cbf3697331d",
+  "name" : "verifyYearsOfExperienceFieldIsDisplayed",
+  "time" : {
+    "start" : 1695540437016,
+    "stop" : 1695540437043,
+    "duration" : 27
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8feb13fdbcfad9",
+  "name" : "scrollDownSection",
+  "time" : {
+    "start" : 1695540429575,
+    "stop" : 1695540429597,
+    "duration" : 22
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b1e3e85e401156d4",
+  "name" : "verifySliderIndexOneBlogPostAuthorSpecializationIsDisplayed",
+  "time" : {
+    "start" : 1695540493134,
+    "stop" : 1695540493158,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ccc768ebb8a295f",
+  "name" : "verifyCard_1_HeadTextIsCorrect",
+  "time" : {
+    "start" : 1695540430015,
+    "stop" : 1695540430034,
+    "duration" : 19
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b016e6e82582f510",
+  "name" : "verifyClickingLogoItemOpensHomePage",
+  "time" : {
+    "start" : 1695540384998,
+    "stop" : 1695540386680,
+    "duration" : 1682
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db9b08d8dee5be02",
+  "name" : "NavigateToSpecialistsPage",
+  "time" : {
+    "start" : 1695540447791,
+    "stop" : 1695540453980,
+    "duration" : 6189
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b4c1440d05d4e732",
+  "name" : "verifyBackFromAppStorePageToHomePage",
+  "time" : {
+    "start" : 1695540428621,
+    "stop" : 1695540429571,
+    "duration" : 950
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e48f8093488c0e30",
+  "name" : "joinAsSpecialistButtonIsDisplayed",
+  "time" : {
+    "start" : 1695540421063,
+    "stop" : 1695540421090,
+    "duration" : 27
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "87abc459ee59d547",
+  "name" : "setUp",
+  "time" : {
+    "start" : 1695540378281,
+    "stop" : 1695540384714,
+    "duration" : 6433
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "adb677c08bc3c480",
+  "name" : "verifySliderIndexOneParagraphTextIsCorrect",
+  "time" : {
+    "start" : 1695540489008,
+    "stop" : 1695540489035,
+    "duration" : 27
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c563f2817e984db1",
+  "name" : "verify Approved Official Authorities Section Is Displayed",
+  "time" : {
+    "start" : 1695540429599,
+    "stop" : 1695540429797,
+    "duration" : 198
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

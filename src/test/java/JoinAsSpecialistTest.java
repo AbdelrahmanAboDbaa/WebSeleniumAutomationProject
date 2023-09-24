@@ -113,7 +113,7 @@ public class JoinAsSpecialistTest {
         JoinFormElements.getSendFormButton().click();
 
         wait.until(ExpectedConditions.visibilityOf(JoinFormElements.getSuccessMessage()));
-        Assert.assertEquals(JoinFormElements.getSuccessMessage().getText(), "شكراً لك. لقد تم الإرسال بنجاح.");
+        Assert.assertEquals(JoinFormElements.getSuccessMessage().getText(), testData.get("outputMessage"));
     }
     @Test(priority = 18)
     public void ClickingJoinAsSpecialistFormCloseHiddenEnterInformationForm() {

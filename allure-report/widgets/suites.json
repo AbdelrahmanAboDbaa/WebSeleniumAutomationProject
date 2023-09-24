@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "5ea150f86b193bcf707b7d6d28d1b71f",
+    "name" : "Practice Suite",
+    "statistic" : {
+      "failed" : 8,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 178,
+      "unknown" : 2,
+      "total" : 188
+    }
+  } ]
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "firstName": "Abdelrahman",
+    "lastName": "Abo Dbaa",
+    "username": "Abod",
+    "email": "abod.deba.000@gmail.com",
+    "password": "Abod1234567890*",
+    "outputMessage": "خطأ: يوجد حساب مُسجّل بالفعل ببريدك الإلكتروني. يُرجى تسجيل الدخول."
+  }
+]

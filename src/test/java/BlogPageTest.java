@@ -1,10 +1,15 @@
 import HomePageTest.SetUpDriver;
+import HomePageTest.TearDown;
 import WebsitePagesElements.BlogPageElements;
 import WebsitePagesElements.HomePageElements;
+import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
+import java.util.ArrayList;
 
 import static HomePageTest.SetUpDriver.driver;
 import static HomePageTest.SetUpDriver.wait;
@@ -81,10 +86,84 @@ public class BlogPageTest {
         Assert.assertTrue(BlogPageElements.getBlogPostAuthorName().isDisplayed());
         Assert.assertEquals("خلود المرغلاني", BlogPageElements.getBlogPostAuthorName().getText());
     }
-    @Test(priority = 15)
+    @Test(priority = 16)
     public void ClickingSliderIndexOneBlogPostAuthorNameOpenHisPage() {
         BlogPageElements.getBlogPostAuthorImage().click();
         assertTrue(BlogPageElements.getBlogPostAuthorNameInPage().isDisplayed());
         driver.navigate().back();
+    }
+    @Test(priority = 17)
+    public void verifySliderIndexOneBlogPostAuthorSpecializationIsDisplayed (){
+        Assert.assertTrue(BlogPageElements.getBlogPostAuthorSpecialization().isDisplayed());
+    }
+    @Test(priority = 18)
+    public void verifySliderIndexOneBlogPostAuthorSpecializationTextIsCorrect (){
+        Assert.assertTrue(BlogPageElements.getBlogPostAuthorSpecialization().isDisplayed());
+        Assert.assertEquals("أخصائي نفسي", BlogPageElements.getBlogPostAuthorSpecialization().getText());
+    }
+    @Test(priority = 19)
+    public void verifySliderIndexOneBlogPostShareTextIsDisplayed (){
+        Assert.assertTrue(BlogPageElements.getBlogPostShareText().isDisplayed());
+    }
+    @Test(priority = 20)
+    public void verifySliderIndexOneBlogPostShareTextIsCorrect (){
+        Assert.assertTrue(BlogPageElements.getBlogPostShareText().isDisplayed());
+        Assert.assertEquals("مشاركة المقال", BlogPageElements.getBlogPostShareText().getText());
+    }
+
+
+
+    @Test(priority = 21)
+    public void verifySliderIndexOneBlogPostShareFacebookIconIsDisplayed (){
+        Assert.assertTrue(BlogPageElements.getBlogPostShareFacebookIcon().isDisplayed());
+    }
+    @Test(priority = 22)
+    public void ClickingSliderIndexOneBlogPostShareFacebookIconOpenShareFacebookPostPage() {
+        BlogPageElements.getBlogPostShareFacebookIcon().click();
+        ArrayList<String> tabs = new ArrayList<>(driver.getWindowHandles());
+        driver.switchTo().window(tabs.get(1));
+        Assert.assertTrue(driver.findElement(By.xpath("//*[@id=\"react-root\"]/div/div/div[2]/main/div/div/div[1]/div[1]/div/div[1]/span")).isDisplayed());
+        driver.close();
+        wait.until(ExpectedConditions.numberOfWindowsToBe(1));
+        driver.switchTo().window(tabs.get(0));
+    }
+    @Test(priority = 23)
+    public void verifySliderIndexOneBlogPostShareTwitterIconIsDisplayed (){
+        wait.until(ExpectedConditions.visibilityOf(BlogPageElements.getBlogPostShareTwitterIcon()));
+        Assert.assertTrue(BlogPageElements.getBlogPostShareTwitterIcon().isDisplayed());
+    }
+    @Test(priority = 24)
+    public void ClickingSliderIndexOneBlogPostShareTwitterIconOpenShareTwitterPostPage() {
+        BlogPageElements.getBlogPostShareFacebookIcon().click();
+        ArrayList<String> tabs = new ArrayList<>(driver.getWindowHandles());
+        driver.switchTo().window(tabs.get(1));
+        Assert.assertTrue(driver.findElement(By.xpath("//*[@id=\"react-root\"]/div/div/div[2]/main/div/div/div[1]/div[1]/div/div[1]/span")).isDisplayed());
+        driver.close();
+        wait.until(ExpectedConditions.numberOfWindowsToBe(1));
+        driver.switchTo().window(tabs.get(0));
+    }
+
+    @Test(priority = 25)
+    public void verifySliderIndexOneBlogDetailsButtonIsDisplayed (){
+        Assert.assertTrue(BlogPageElements.getBlogPostDetailsButton().isDisplayed());
+    }
+    @Test(priority = 26)
+    public void ClickingDetailsButtonOpenArticlePage() {
+        BlogPageElements.getBlogPostDetailsButton().click();
+        assertTrue(BlogPageElements.getArticleTitle().isDisplayed());
+        driver.navigate().back();
+    }
+
+
+
+
+
+
+
+
+
+    @AfterTest
+    public void TearDown() {
+        TearDown.tearDown();
     }
 }

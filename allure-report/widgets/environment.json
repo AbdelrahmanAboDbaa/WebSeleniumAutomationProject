@@ -1,0 +1,13 @@
+[ {
+  "values" : [ "Famcare" ],
+  "name" : "Name"
+}, {
+  "values" : [ "https://famcare.app/" ],
+  "name" : "Url"
+}, {
+  "values" : [ "Chrome" ],
+  "name" : "Browser"
+}, {
+  "values" : [ "114.0" ],
+  "name" : "Browser.Version"
+} ]

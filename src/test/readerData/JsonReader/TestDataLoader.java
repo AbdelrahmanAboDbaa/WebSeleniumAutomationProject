@@ -14,21 +14,37 @@ public class TestDataLoader {
 
     @DataProvider(name = "JoinAsSpecialistFormData")
     public static Object[][] testJoinAsSpecialistFormData() {
-        return provideTestData("src/JsonFiles/TestData.json");
+        return provideTestData("src/JsonFiles/TestDataJoinAsSpecialist.json");
     }
+    @DataProvider(name = "RegistrationAcademyForm")
+    public static Object[][] testRegistrationAcademyFormData() {
+        return provideTestData("src/JsonFiles/RegistrationAcademyForm.json");
+    }
+    @DataProvider(name = "LoginAcademyForm")
+    public Object[][] testLoginAcademyFormData() {
+        return provideTestData("src/JsonFiles/LoginAcademyForm.json");
+    }
+
+    @DataProvider(name = "SuccessLoginAcademyForm")
+    public Object[][] SuccessLoginAcademyFormData() {
+        return new Object[][] {
+                {  "Abod", "Abod1234567890*"}
+        };
+    }
+
+
     @DataProvider(name = "ExistSpecialistNamesToSearch")
     public Object[][] ExistSpecialistNamesToSearch() {
         return new Object[][] {
                 {"محمد"}, //Expect a match
-
         };
     }
     @DataProvider(name = "Non-ExistSpecialistNamesToSearch")
     public Object[][] NonExistSpecialistNamesToSearch() {
         return new Object[][] {
                 {"محمد القحطاني"}, //Expect a match
-                {"Alice Smith"},  //Expect no match
-                {"Bob Johnson"},
+                {"Abdelrahman"},  //Expect no match
+                {"Abod"},
         };
     }
 

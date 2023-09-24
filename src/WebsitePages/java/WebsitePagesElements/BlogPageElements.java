@@ -36,5 +36,20 @@ public class BlogPageElements {
     public static WebElement getBlogPostAuthorName(){
         return driver.findElement(By.cssSelector("[data-swiper-slide-index='0'] .blog-post__author-name>a"));
     }
+    public static WebElement getBlogPostAuthorSpecialization(){
+        return driver.findElement(By.cssSelector("[data-swiper-slide-index='0'] .blog-post__author-specialization"));
+    }
+    public static WebElement getBlogPostShareText(){
+        return driver.findElement(By.cssSelector("[data-swiper-slide-index='0'] .featured-blog__actions-share > p"));
+    }
+    public static WebElement getBlogPostShareFacebookIcon(){
+        return driver.findElement(By.cssSelector("[data-swiper-slide-index='0'] .a2a_button_facebook"));
+    }
+    public static WebElement getBlogPostShareTwitterIcon(){
+        return driver.findElement(By.cssSelector("[data-swiper-slide-index='0'] .a2a_button_twitter"));
+    }
+    public static WebElement getBlogPostDetailsButton(){
+        return driver.findElement(By.cssSelector("[data-swiper-slide-index='0'] .btn-primary"));
+    }
 
 }

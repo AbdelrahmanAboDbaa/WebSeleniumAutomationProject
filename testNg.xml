@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite">
+    <test name="Set Up Driver">
+        <classes>
+            <class name="HomePageTest.SetUpDriver"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Home Page Test">
+        <classes>
+            <class name="HomePageTest.NavigationBarTest"/>
+            <class name="HomePageTest.HeroSectionTest"/>
+            <class name="HomePageTest.ApprovedOfficialAuthoritiesSectionTest"/>
+            <class name="HomePageTest.SpecialistsAndGuidesSectionTest"/>
+            <class name="HomePageTest.StatisticsSectionTest"/>
+
+        </classes>
+    </test> <!-- Test -->
+    <test name="Join As Specialist Form Test">
+        <classes>
+            <class name="JoinAsSpecialistTest"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Specialists Page Test">
+        <classes>
+            <class name="SpecialistsPageTest"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Blog Page Test">
+        <classes>
+            <class name="BlogPageTest"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Academy Page Test">
+        <classes>
+            <class name="AcademyPageTest"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="tear down" >
+        <classes>
+            <class name="HomePageTest.TearDown"/>
+        </classes>
+    </test>
+
+</suite> <!-- Suite -->
