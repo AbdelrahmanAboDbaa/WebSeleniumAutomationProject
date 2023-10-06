@@ -4,3 +4,5 @@
 
 test pull
 abod
+
+remote
