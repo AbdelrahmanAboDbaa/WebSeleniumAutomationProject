@@ -4,6 +4,7 @@
 
 test pull
 abod
+hello local
 
 remote
 
