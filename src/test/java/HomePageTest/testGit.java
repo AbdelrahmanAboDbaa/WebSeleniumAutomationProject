@@ -4,5 +4,8 @@ public class testGit {
     String str;
     String str2;
     String str3;
-  test remote
+    String str4;
+    String str5;
+
+ // test remote
 }
