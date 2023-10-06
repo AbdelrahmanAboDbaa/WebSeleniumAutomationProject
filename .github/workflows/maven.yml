@@ -1,12 +1,12 @@
-name: Selenium Tests
+name: PITA-TRAING-WORKFLOW
 
 on:
   push:
-    branches:
-      - master
+    branches: [ "master" ]
 
 jobs:
-  test:
+  build:
+    permissions: write-all
     runs-on: ubuntu-latest
 
     steps:
