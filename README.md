@@ -9,3 +9,5 @@ hello local
 remote
 
 test pull git
+
+test pull git
