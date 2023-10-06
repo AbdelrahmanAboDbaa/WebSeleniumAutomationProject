@@ -16,7 +16,8 @@ jobs:
       - name: Set up JDK
         uses: actions/setup-java@v2
         with:
-          java-version: '18'  # You can change this to the version of Java you're using
+          java-version: '18'
+          distribution: 'temurin'  # Specify the distribution parameter here
 
       - name: Install dependencies
         run: mvn clean install  # Modify this according to your Maven setup
