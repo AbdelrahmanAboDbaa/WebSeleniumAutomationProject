@@ -7,3 +7,5 @@ abod
 hello local
 
 remote
+
+test pull git
